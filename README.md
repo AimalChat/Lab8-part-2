@@ -49,10 +49,11 @@ public static String[] getValidCommands()
 
 21. How might the CommandWords class provide more detail on each command? For instance, a list of 
 command words, whether each has a second word, and what each command does. Add a method to your
- version of CommandWords to provide this and add a command word to the game whose use will call 
+version of CommandWords to provide this and add a command word to the game whose use will call 
 that method and displays what it returns.
 
-
+We could add further fields to a command such as int length and String Utility. Then we simply just return
+those fields with accessor methods and print them out in the CommandWords class.
 
 22. Find out what the model-view-controller pattern is. You can do a web search to get information, or you 
 can use any other sources you find. How is it related to the topic discussed here? What does it suggest? 
